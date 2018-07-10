@@ -1,21 +1,10 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import test from './components/test'
+import Test from './components/test'
+import 'semantic-ui-css/semantic.min.css';
+//import '../semantic/dist/semantic.min.css';
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-          <div><test/></div>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
+    return <Test/>
   }
 }
 
